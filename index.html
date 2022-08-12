@@ -1,12 +1,591 @@
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<title>Ankit Das</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="Description" content="Student at EEE Major
+			at IIT-P Developer,
+			Programming enthusiast, Code fanatic">
+		<meta name="Keywords" content="Ankit, Ankit717, ank717, Ankit7Das">
+		<meta property="og:title" content="Student at EEE Major
+			at IIT-P Developer,
+			Programming enthusiast, Code fanatic">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://Ankit7Das.github.io">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+		<meta name="theme-color" content="#4d4256">
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic|Dancing+Script"
+			rel="stylesheet"
+			type="text/css">
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		.myfont {
+			font-family: 'Josefin Sans', sans-serif;
+		}
 
-<head>
-    <title>portfolio</title>
+		#homeimg {
+			opacity: 1;
+			/*position: absolute;*/
+			/*top: 50%;*/
+			/*left: 50%;*/
+			/*transform: translate(-50%,-50%);*/
+			margin: auto;
+			height: 200px;
+			z-index: 10;
+			width: 200px;
+			border-radius: 100px;
+			/*
+			    background-image: url('pic/dp_.png');
+			    background-size: 120%;
+			    background-position: -30px;*/
+			background-image: url('./images/dp.jpg');
+			background-size: 110%;
+			background-position-x: 65%;
+			box-shadow: 0 0 50px #151414;
+			background-color: #000000;
+		}
 
-</head>
+		.nomargin {
+			margin: 0px;
+		}
 
-<body>
-    <h1>hello this is name.</h1>
-</body>
+		.faw-up {
+			/* padding: 20px; */
+			background-color: #4a4a4a;
+			box-shadow: rgb(76, 92, 150) 0 0 15px;
+			font-size: 30px;
+			width: 50px;
+			padding: 10px;
+			height: 50px;
+			margin: 10px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+
+		.faw-up:hover {
+			opacity: 0.7;
+		}
+
+		.faw-dwn {
+			/* padding: 20px; */
+			background-color: #4a4a4a;
+			box-shadow: rgb(76, 92, 150) 0 0 15px;
+			font-size: 30px;
+			width: 50px;
+			padding: 10px;
+
+			height: 50px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+
+		.faw-dwn:hover {
+			opacity: 0.7;
+		}
+
+		#banner:before,
+		#banner:after {
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867%3B' /%3E%3C/svg%3E");
+		}
+
+		.notr {
+			text-transform: none !important;
+		}
+
+		.zeroradius {
+			border-radius: 0px !important;
+		}
+	</style>
+		<script>
+		$(document).ready(function () {
+			$(".calendar").delay(1000).fadeIn();
+		});
+	</script>
+	</head>
+
+	<body>
+		<div id="page-wrapper">
+			<header id="header" class="alt">
+				<h1><a href="./">Ankit Das</a></h1>
+				<nav>
+					<!-- <a class="button" href=""><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;myCloud</a> -->
+					<a class="button" href="#menu">&lt;nav&gt;</a>
+				</nav>
+			</header>
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="./">Home</a></li>
+						<li><a href="https://drive.google.com/file/d/1-PoSZyNYIB3DdoKPJW44kY2AUya9vJ0W/view?usp=sharing" target="_bl">Resume</a></li>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#programming">Worked</a></li>
+						<li><a href="#worked">Worked</a></li>
+						<li><a href="#alma-matter">Alma-Matter</a></li>
+						<li><a href="#projects">Projects</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+			<section id="banner" style="min-height:90%">
+				<div class="inner">
+					<div class="logo">
+						<div id="homeimg"></div>
+					</div>
+					<h2 id="headtext" class="notr myfont" style="text-align: center;"><b>Ankit Das</b></h2>
+					<p class="notr myfont" style="text-align: center;">
+						Developer and Programming fanatic<br>
+						<a target="_blank" href="https://www.linkedin.com/in/ankit-das-b95844192/" class="fa
+							faw-up fa-linkedin"></a>
+						<a target="_blank" href="https://www.facebook.com/profile.php?id=100006183317301" class="fa
+							faw-up fa-facebook"></a>
+						<a target="_blank" href="https://github.com/Ankit7Das" class="fa faw-up
+							fa-github"></a>
+						<a target="_blank" href="https://www.instagram.com/ankd_17/?hl=en" class="fa faw-up
+							fa-instagram"></a>
+						<a target="_blank" href="https://twitter.com/AnkitDa23057827" class="fa faw-up
+							fa-twitter"></a>
+						<br/><a href="https://drive.google.com/file/d/1-PoSZyNYIB3DdoKPJW44kY2AUya9vJ0W/view?usp=sharing" target="_bl" class="button">Resume</a>
+						<span id="intro"></span>
+					</p>
+				</div>
+			</section>
+
+			<!-- Wrapper Starts -->
+			<section id="wrapper">
+
+				<section id="one" class="wrapper spotlight style1">
+					<div data-aos="fade-up" class="inner">
+						<a class="image"><img src="pic/octocat.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major myfont">About Me!</h2>
+							<h3 class="major myfont">Presently: Electrical and Electronics Engineering Undergrad at Indian Institute of Technology Patna</h3>
+							<p class="myfont">
+								<br>Coordinator : Web&App @Celesta IITP, Web Lead @GDSC IITP
+								<br>Sub Coordinator : Open Source @NJACK IITP
+								<br>Developer, code fanatic, programmer</p>
+							<!-- <a target="_bl" href="" class="special">Learn more</a> -->
+						</div>
+					</div>
+					<span id="programming"></span>
+				</section>
+
+				<br>
+				<h1 style="font-size: 3em;text-align: center" class="myfont">Programming</h1>
+				<br>
+
+				<!--  -->
+				
+				<section id="two" data-aos="fade-up" class="wrapper spotlight style3">
+					<div class="inner">
+						<a target="_blank" href="https://www.codechef.com/users/ankit717" class="image zeroradius"><img class="zeroradius"
+								src="pic/codechef.svg" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Codechef</h2>
+							<h3 class="nomargin myfont">Highest Rating: 2126</h3>
+							<h3 class="nomargin myfont">
+								<ul>
+									<li>Achieved Rank 45 in Codechef June Cook-Off 2022 Div 2</li>
+									<li>Achieved Rank 37 in Codechef Starters 41 Div 2</li>
+								</ul>
+							</h3>
+						</div>
+					</div>
+				</section>
+
+				<section id="two" data-aos="fade-up" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a target="_blank"
+							href="https://codeforces.com/profile/Ankit717"
+							class="image zeroradius"><img class="zeroradius" src="pic/codeforces.png"
+								alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Codeforces</h2>
+							<h3 class="nomargin myfont">Highest Rating: 1648</h3>
+							<h3 class="nomargin myfont">
+								<ul>
+									<li>Achieved Rank 530 in Codeforces Round #804 Div 2</li>
+									<li>Achieved Rank 899 in Codeforces Round #777 Div 2</li>
+								</ul>
+							</h3>
+						</div>
+					</div>
+				</section>
+
+				<section id="two" data-aos="fade-up" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a target="_blank"
+							href="https://leetcode.com/Ank717/"
+							class="image zeroradius"><img class="zeroradius" src="pic/leetcode.png"
+								alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">LeetCode</h2>
+							<h3 class="nomargin myfont">Highest Rating: 1903</h3>
+							<h3 class="nomargin myfont">Questions Solved: 506</h3>
+						</div>
+					</div>
+					<span id="worked"></span>
+				</section>
+
+				<br>
+				<h1 style="font-size: 3em;text-align: center" class="myfont">Worked</h1>
+				<br>
+
+				<!--  -->
+				
+				<!-- <section id="two" data-aos="fade-up" class="wrapper spotlight style3">
+					<div class="inner">
+						<a target="_blank" href="https://zomato.com/" class="image zeroradius"><img class="zeroradius"
+								src="pic/zomato.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Zomato- SDE Intern</h2>
+							<h3 class="nomargin myfont">Worked in Logistics Tech Team as a backend developer.</h3>
+							<h3 class="nomargin myfont">Jan – April 2022</h3>
+							<p>Got exposure to Apache Kafka, Elastic Search, Pub-Sub, gRPC, Microservices in Golang, Ruby on Rails</p>
+						</div>
+					</div>
+				</section> -->
+
+				<section id="two" data-aos="fade-up" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a target="_blank"
+							href="https://snumbers.com/"
+							class="image zeroradius"><img class="zeroradius" src="pic/snumbers.png"
+								alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Success Numbers Pvt. Ltd.
+								- SDE Intern</h2>
+							<!-- <h3 class="nomargin myfont">Worked on OMS (Order Management System) and developed microservices for tracking whole order life-cycle</h3> -->
+							<h3 class="nomargin myfont">May – July 2022</h3>
+							<ul>
+								<li>Implemented the business logic for sales order, stock balance and transfer receipt confirmation using <b>AWS lambda</b>,
+									<b>AWS SQS</b> and <b>AWS SNS</b> with <b>NodeJs</b> on <b>OracleDB</b>.</li>
+								<li>Built functions using <b>Springboot</b> to query data from <b>OracleDB</b> to pass onto the above created SNS and SQS instances.</li>
+								<li>Developed a system to transfer SFTP files to an S3 bucket and receive and transfer messages in a particluar SQS to another from the SFTP files</li>
+							</ul>
+							<p><b>Tech Stacks: </b>NodeJs, Springboot, AWS (SNS, SQS, Lambda), SFTP</p>
+						</div>
+					</div>
+				</section>
+
+				<section id="two" data-aos="fade-up" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a target="_blank"
+							href="https://barbera.netlify.app/"
+							class="image zeroradius"><img class="zeroradius" src="pic/barbera.png"
+								alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Barbera
+								- SDE Intern</h2>
+							<!-- <h3 class="nomargin myfont">Worked on OMS (Order Management System) and developed microservices for tracking whole order life-cycle</h3> -->
+							<h3 class="nomargin myfont">July – Sept 2021</h3>
+							<ul>
+								<li>Built an OTP based login system with <b>Textlocal</b> and <b>Node.js</b> on <b>AWS Lambda</b> and <b>AWS DynamoDB</b>.</li>
+								<li>Shifted the past backend data of services available on Firebase to <b>AWS</b> and built a add-to-cart and book system.</li>
+								<li>Implemented a slot-type booking system which allots the nearest barber to cater to the service booked.</li>
+							</ul>
+							<p><b>Tech Stacks: </b>NodeJs, AWS (SNS, SQS, DynamoDB, Lambda, CloudWatch)</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- <section id="two" data-aos="fade-up" class="wrapper spotlight style3">
+					<div class="inner">
+						<a target="_blank" href="https://habitat.club/" class="image zeroradius"><img class="zeroradius"
+								src="pic/habitat.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Habitat.Club (Apeirogon Technologies Pvt. Ltd.) - SDE Intern</h2>
+							<h3 class="nomargin myfont">Contributed to habitat.club e-learning client.</h3>
+							<h3 class="nomargin myfont">Jan – April 2021</h3>
+							<p>Build REST-APIs and webhooks in Node, MongoDB and client in React. Integrated razorpay payment gateway and a built admin portal for all monetary management</p>
+						</div>
+					</div>
+				</section> -->
+
+				<!-- <section id="two" data-aos="fade-up" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<a target="_blank"
+							href="https://summerofcode.withgoogle.com/"
+							class="image zeroradius"><img class="zeroradius" src="pic/gsoc_logo.png"
+								alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Google Summer of Code
+								- Sophomore year</h2>
+							<h3 class="nomargin myfont">Student developer at GSoC 2020 for RocketChat</h3>
+							<h3 class="nomargin myfont">Omnichannel: Add screen sharing feature in the Livechat widget
+							</h3>
+							<h3 class="nomargin myfont">May – September 2020</h3>
+							<p>I worked with Rocket.Chat organization where I implemented screen sharing feature in the live-chat widget by developing a generic screen-sharing provider. 
+								Implemented API’s in RocketChat’s JS-SDK so that agents could get real-time screen-share on customer’s devices.
+								Got exposure to Typescript, MeteorJS, RocketChat SDK, RocketChat Apps-Engine, MongoDB, Dependency Inversion</p>
+							<a target="_blank"
+								href="https://summerofcode.withgoogle.com/archive/2020/projects/4804104636858368/"
+								class="special">View project</a>
+							<a target="_blank"
+								href="https://gist.github.com/ashwaniYDV/d8fcd258e3725bde8e10eac669de5f80"
+								class="special">GSoC Work Report</a>
+						</div>
+					</div>
+				</section> -->
+
+				<!-- <section id="two" data-aos="fade-up" class="wrapper spotlight style3">
+					<div class="inner">
+						<a target="_blank" href="https://www.facebook.com/interiit.tech" class="image zeroradius"><img class="zeroradius"
+								src="pic/interiittechmmeet.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;"
+								class="myfont">Inter IIT Tech Meet 8.0, IIT Roorkee</h2>
+							<h3 class="nomargin myfont">Sub-Coordinator</h3> -->
+							<!-- <h3 class="nomargin myfont">I with my team won Gold Medal for the event "Ashoka's Tech for Change"</h3>
+							<h3 class="nomargin myfont">Fullstack Web and Blockchain Developer</h3>
+							<h3 class="nomargin myfont">October – December 2019</h3>
+							<p>Problem Statement:
+								With the vision, “Technology is not an end in itself, it’s a means to an end”, participants are supposed to develop a product using technology to solve an existing societal problem. Also, form a suitable business model around the same.
+							</p>
+							<a href="https://www.facebook.com/interiit.tech" target="_blank" class="special">Inter IIT Tech Meet</a>
+						</div>
+					</div>
+				</section> -->
+
+				<section id="three" class="wrapper spotlight style2 alt">
+					<div class="inner">
+						<a target="_blank" href="https://njack.iitp.ac.in/" class="image zeroradius"><img class="zeroradius"
+								src="pic/njackLogo.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major">NJACK IITPatna</h2>
+							<h3 class="nomargin myfont">Sub Coordinator: Development & Open Source</h3>
+							<h3 class="nomargin myfont">Sep 2020 – June 2021<br>Location: IIT Patna</h3>
+							<p>NJACK (Not Just Another Computer Science Klub!) is the official Computer Science Club of IIT Patna</p>
+							<a href="https://njack.iitp.ac.in/" target="_blank" class="special">Visit site</a>
+						</div>
+					</div>
+					<span id="alma-matter"></span>
+				</section>
+
+				<!--  -->
+
+				<br>
+				<h1 style="font-size: 3em;text-align: center" class="myfont">Alma mater</h1>
+				<br>
+
+				<section id="two" class="wrapper spotlight style3">
+					<div class="inner">
+						<a target="_blank" href="https://www.iitp.ac.in/" class="image zeroradius"><img class="zeroradius"
+								src="pic/iitp.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major" style="text-transform: none !important;font-family:
+								'Josefin Sans',
+								sans-serif !important;">
+								Indian Institute of Technology, Patna - IIT P</h2>
+							<h3 class="nomargin myfont">Bachelors in Technology</h3>
+							<h3 class="nomargin myfont">Major: Electrical and Electronics Engineering</h3>
+							<p>The Indian Institute of Technology Patna is an autonomous institute
+								of education and research in science, engineering and technology located in Patna, India. 
+								It is recognized as an Institute of National Importance by the Government of India.</p>
+							<a href="https://www.iitp.ac.in/" target="_blank" class="special myfont">Learn
+								more</a>
+						</div>
+					</div>
+					<!-- <span id="alma-matter"></span> -->
+				</section>
+
+				<section id="three" class="wrapper spotlight style2 alt">
+					<div class="inner">
+						<a href="#" class="image"><img src="pic/dps.png" alt="" /></a>
+						<div class="content">
+							<h2 class="major myfont">Delhi Public School, Guwahati</h2>
+							<h3 class="nomargin myfont">Primary-Middle-High School</h3>
+							<p></p>
+							<a href="https://dpsguwahati.org/" target="_blank" class="special
+								myfont">Learn more</a>
+						</div>
+					</div>
+					<span id="projects"></span>
+				</section>
+				<br>
+
+				<br>
+				<h1 style="font-size: 3em;text-align: center" class="myfont">Projects</h1>
+				<br>
+
+				<section id="four" class="wrapper style1">
+					<div class="inner">
+						<h2 class="major">Highlights</h2>
+						<p>This section contains some of my the things I've worked on before.
+							<br>Many more such projects
+							can be found at <a target="_blank" href="https://github.com/Ankit7Das">GitHub</a></p>
+						<section class="features">
+							<article>
+								<!-- <a class="image"><img src="pic/iwa_.png" alt="" /></a> -->
+								<h3 class="major">Gymkhana Election Portal</h3>
+								<p> I worked in this project as a part of a team of 3. The portal was used for the Gymkhana (Student Council) elections for the next years to come.
+									The portal was further improved by us with new features like in-house candidature registration and candidature approval by the college Admin.
+								</p>
+								<!-- <a target="_bl" href="https://iwebapp.ml" class="special">Live Version</a> -->
+								<a target="_bl" href="https://github.com/Ankit7Das/Gymkhana-Election" class="special">View on Github</a>
+							</article>
+							<article>
+								<!-- <a class="image"><img src="pic/anw.png" alt="" /></a> -->
+								<h3 class="major">Celesta 2k20 Website</h3>
+								<p>I worked here as a part of a team of 3. The project is the main portal for Celesta 2k20. It allowed event registrations after logging into the website</p>
+								<a target="_bl" href="https://github.com/Ankit7Das/celesta2020" class="special">View on Github</a>
+							</article>
+						</section>
+						<ul class="actions">
+							<li><a target="_blank" href="https://github.com/Ankit7Das" class="button">Browse All</a></li>
+						</ul>
+					</div>
+				</section>
+				<br>
+
+				<br>
+				<h1 style="font-size: 3em;text-align: center">Etc.</h1>
+				<br>
+
+				<section id="three" class="wrapper alt spotlight style3">
+					<div class="inner">
+						<a href="#" class="image"><img src="pic/guitar.jpg" alt="" /></a>
+						<div class="content">
+							<h1>Hi, I’m Ankit, the guy behind and in-front of this site ;)</h1>
+							<p style="margin: 0;">The following are a few things I do or used to do before when I'm not
+								coding:
+								<ul>
+									<li>Listening to Music!</li>
+									<li>Workout</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</section>
+
+			</section>
+			<!-- Wrapper ends -->
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<h2 class="major">Get in touch</h2>
+
+					<form id="my-form" action="https://formspree.io/mqkygoae" method="POST">
+						<p style="font-weight: bolder;" id="my-form-status"></p>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="emailholder" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="messageholder" rows="4"></textarea>
+						</div>
+						<ul class="actions">
+							<li><button id="my-form-button">Send Message</button></li>
+						</ul>
+					</form>
+
+					<ul class="contact">
+						<li><a target="_blank" href="https://www.linkedin.com/in/ankit-das-b95844192/"
+								class="myfont">&nbsp;&nbsp;&nbsp;LinkedIn</a></li>
+						<li><a target="_blank" href="https://github.com/Ankit7Das"
+								class="myfont">&nbsp;&nbsp;&nbsp;GitHub</a></li>
+						<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100006183317301"
+								class="myfont">&nbsp;&nbsp;&nbsp;Facebook</a></li>
+						<li><a target="_blank" href="https://www.instagram.com/ankd_17/?hl=en"
+								class="myfont">&nbsp;&nbsp;&nbsp;Instagram</a></li>
+						<li><a target="_blank" href="https://twitter.com/AnkitDa23057827"
+								class="myfont">&nbsp;&nbsp;&nbsp;Twitter</a></li>
+					</ul>
+
+				</div>
+			</section>
+
+		</div>
+
+		<!-- jiosaavn[S] -->
+    		<!-- <div id="jiosaavn-widget"><div style="position:fixed;top:100%;">Listen to the <a href="https://www.jiosaavn.com/featured/the-drop/NkWn3dHw0Krc1EngHtQQ2g__" target="_blank">latest songs</a>, only on <a href="https://www.jiosaavn.com" target="_blank">JioSaavn.com</a></div><div id="jsw" class="ads queue contract complete" data-gtm-vis-recent-on-screen-6535019_639="7563" data-gtm-vis-first-on-screen-6535019_639="7563" data-gtm-vis-total-visible-time-6535019_639="100" data-gtm-vis-has-fired-6535019_639="1"><div id="jsw-wrap"><iframe id="jsw-iframe" src="https://www.jiosaavn.com/embed/playlist/173255392"></iframe></div><span id="jsw-close"><svg xmlns:xlink="http://www.w3.org/1999/xlink" id="jsw-close-contract" viewBox="0 0 14 14" fill="#fff"><path d="M13.6,3.6c-0.3-0.3-0.8-0.3-1.1,0L7,9L1.6,3.6c-0.3-0.3-0.8-0.3-1.1,0s-0.3,0.8,0,1.1l5.7,5.7c0.2,0.2,0.6,0.3,0.8,0.2c0.3,0.1,0.6,0,0.8-0.2l5.7-5.7C13.9,4.4,13.9,3.9,13.6,3.6z"></path></svg></span></div></div>
+    		<script>(function (d, t) {var s = d.createElement(t);var s1 = d.createElement(t);if (d.getElementById('jsw-init')) return;s.setAttribute('id', 'jsw-init');s.setAttribute('src', 'https://www.jiosaavn.com/embed/_s/embed.js?ver=' + Date.now());s.onload = function () { s1.appendChild(d.createTextNode('JioSaavnEmbedWidget.init({a:1,q:1,embed_src:"https://www.jiosaavn.com/embed/playlist/173255392", partner_id: "ndtv"});')); d.body.appendChild(s1); };if (document.readyState === 'complete') {d.body.appendChild(s);} else if (document.readyState === 'loading') {var interval = setInterval(function () {if (document.readyState === 'complete') {d.body.appendChild(s);clearInterval(interval);}}, 100);} else {window.onload = function () { d.body.appendChild(s); };}})(document, 'script');</script> -->
+    		<!-- jiosaavn[E] -->
+
+		<!-- formspree.io script -->
+		<script>
+		window.addEventListener("DOMContentLoaded", function() {
+	  
+		  // get the form elements defined in your form HTML above
+		  
+		  var form = document.getElementById("my-form");
+		  var button = document.getElementById("my-form-button");
+		  var status = document.getElementById("my-form-status");
+	  
+		  // Success and Error functions for after the form is submitted
+		  
+		  function success() {
+			form.reset();
+			status.innerHTML = "Thanks for connecting!";
+		  }
+	  
+		  function error() {
+			status.innerHTML = "Oops! There was a problem.";
+		  }
+	  
+		  // handle the form submission event
+		  form.addEventListener("submit", function(ev) {
+			ev.preventDefault();
+			var data = new FormData(form);
+			ajax(form.method, form.action, data, success, error);
+		  });
+		});
+		
+		// helper function for sending an AJAX request
+	  
+		function ajax(method, url, data, success, error) {
+		  var xhr = new XMLHttpRequest();
+		  xhr.open(method, url);
+		  xhr.setRequestHeader("Accept", "application/json");
+		  xhr.onreadystatechange = function() {
+			if (xhr.readyState !== XMLHttpRequest.DONE) return;
+			if (xhr.status === 200) {
+			  success(xhr.response, xhr.responseType);
+			} else {
+			  error(xhr.status, xhr.response, xhr.responseType);
+			}
+		  };
+		  xhr.send(data);
+		}
+	</script>
+		<!-- Scripts -->
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script>
+		AOS.init();
+		$(window).on('load', function () {
+			AOS.refresh();
+		});
+	</script>
+	<!-- https://ashwani-iitp.goatcounter.com/ -->
+	<script data-goatcounter="https://ashwani-iitp.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	</body>
 
 </html>
